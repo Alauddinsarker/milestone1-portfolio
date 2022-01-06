@@ -1,5 +1,6 @@
 body {
     font-family: 'Lora', serif;
+
 }
 
 body h1 {
@@ -8,6 +9,7 @@ body h1 {
 
 section {
     display: flex;
+    margin-bottom: 50px;
 }
 
 .section-content {
@@ -40,6 +42,50 @@ section {
 .section-img img {
     width: 60%;
     margin-left: 10px;
+}
+
+.section-uncommon {
+    margin-bottom: 50px;
+}
+
+.section-uncommon h1 {
+    text-align: center;
+}
+
+.small-box-wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.small-box {
+    width: 33%;
+    margin-right: 10px;
+    border-radius: 5px;
+    ;
+}
+
+.small-box-bg1 {
+    background-color: rgb(250, 245, 245);
+}
+
+.small-box-bg2 {
+    background-color: rgb(235, 234, 224);
+}
+
+.small-box-bg3 {
+    background-color: lemonchiffon;
+}
+
+.small-box img {
+    width: 40%;
+}
+
+.customize-image {
+    margin-top: 20px;
+}
+
+.customize-image img {
+    height: 400px;
 }
 
 footer {
